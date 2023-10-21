@@ -1,6 +1,6 @@
 FROM superruzafa/tinytex
-RUN addgroup -S basegroup && adduser -S mainuser -G basegroup
 USER root
+#RUN addgroup -S basegroup && adduser -S mainuser -G basegroup
 # Update package information
 # Install msttcorefonts-installer and fontconfig
 RUN apk --no-cache add msttcorefonts-installer fontconfig && \
