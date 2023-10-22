@@ -47,7 +47,7 @@ jobs:
 
       # Set up QEMU emulation for non-native builds
       - name: Set up QEMU
-      uses: docker/setup-qemu-action@v1
+        uses: docker/setup-qemu-action@v1
 
       # Set up BuildKit Docker container builder to be able to build
       # multi-platform images and export cache
