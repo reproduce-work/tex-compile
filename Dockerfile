@@ -34,3 +34,5 @@ RUN tlmgr install natbib
 RUN tlmgr install enumitem
 RUN tlmgr install advdate
 
+WORKDIR /home
+
